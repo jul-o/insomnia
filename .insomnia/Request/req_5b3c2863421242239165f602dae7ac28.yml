@@ -1,0 +1,44 @@
+_id: req_5b3c2863421242239165f602dae7ac28
+type: Request
+parentId: wrk_94282fed7bb9464f810597a51af9e962
+modified: 1663752430390
+created: 1663752110584
+url: https://api.dev.hopia.eu/api/planning/desiderata/desiderata_campaign/?team=66
+name: Create planning
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date_deadline": "2022-09-21",
+    	"date_end": "2022-09-29",
+    	"date_start": "2022-09-21",
+    	"max_request": 2,
+    	"name": "YOPp",
+    	"pk": null,
+    	"request_types_pks": [
+    		295
+    	],
+    	"team": 66
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_012a13dc19df499c9e28c5c325b89a95
+  - id: pair_b52e059f1b0d41fe8723f187363f7c29
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYzNzc2ODg3LCJpYXQiOjE2NjM2OTA0ODcsImp0aSI6ImY2ZjMwNTY4MDdkMTQ0ZjI5OTg2NjNlZTgxZGJiOTIwIiwidXNlcl9pZCI6NjZ9.Fk9_9QZySO0fjZOwacwdxSQciLwaKO1PVhzZapov9z5zR296H3mqkYzYh5KlwrVwBYQNv7UsKmzXNcFGgkm-Iw
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1663752110584
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

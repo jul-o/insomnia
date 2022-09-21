@@ -1,0 +1,41 @@
+_id: req_091895488b0f46e29120207dbb6acc75
+type: Request
+parentId: wrk_94282fed7bb9464f810597a51af9e962
+modified: 1663752460294
+created: 1663752344872
+url: https://api.dev.hopia.eu/api/planning/desiderata/requests/
+name: Create desid
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"comment": "yes",
+    	"datetime_end": "2022-09-28T23:55:00",
+    	"datetime_start": "2022-09-22T00:00:00",
+    	"desiderata_campaign": 304,
+    	"pk": null,
+    	"priority": 2,
+    	"request_type": 295,
+    	"user": 66
+    }
+parameters: []
+headers:
+  - id: pair_dae3312fad6b4e52bc67ba6d9000b54d
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYzNzc2ODg3LCJpYXQiOjE2NjM2OTA0ODcsImp0aSI6ImY2ZjMwNTY4MDdkMTQ0ZjI5OTg2NjNlZTgxZGJiOTIwIiwidXNlcl9pZCI6NjZ9.Fk9_9QZySO0fjZOwacwdxSQciLwaKO1PVhzZapov9z5zR296H3mqkYzYh5KlwrVwBYQNv7UsKmzXNcFGgkm-Iw
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_f91e32dfe2b24d74866f29ffbb345089
+authentication: {}
+metaSortKey: -1663752344872
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
